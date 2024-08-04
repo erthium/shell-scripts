@@ -1,0 +1,8 @@
+[Unit]
+Description=project
+
+[Service]
+ExecStart=/path/to/project/start.sh
+
+[Install]
+WantedBy=multi-user.target
